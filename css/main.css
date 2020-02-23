@@ -1,0 +1,425 @@
+body{
+    background-image: url('img/back.jpg');
+    width: 100%;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #e2e2e2;
+}
+.container{
+margin-top: 70px;
+}
+
+.sideBarTitle{
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 2px;
+    padding: 5px;
+}
+
+.blank{
+    background-image: url('img/dark.jpg');
+    width: 100%;
+    min-height: 450px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.formFormat
+{
+    margin-top: 30px;
+    padding: 10px;
+}
+
+#logInBtn{
+    margin-top: 40px;
+    background-color: #A63F53;
+    border: none;
+    transition: transform 0.4s ease-in-out;
+  
+}
+
+#logInBtn:hover{
+        background-color: rgb(202, 77, 102);
+        color: white;
+        border: none;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+#wantReg
+{
+    background-color:  #3B0520;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 20px;
+    height: 90px;
+    text-align: center;
+    transition: transform 0.4s ease-in-out;
+    white-space:pre-wrap;
+    border: none;
+}
+    
+#wantReg:hover
+{
+    text-decoration: none;
+    color: #ffffff;
+    background-color:rgb(95, 9, 52);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1); 
+}
+
+.jumbotron {
+   
+    font-size: 10px;
+    color: #414141 !important;
+    width: 100%;
+    background-color:  #ccccb3 !important;
+    margin-top: 50px;
+    text-align: center !important;
+}
+#description{
+    font-size: 18px !important;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.Regblank
+{
+    min-height: 570px;
+    background-image: url('img/dark.jpg');
+    padding: 15px;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-bottom: 60px;
+}
+#regBtn,
+#returnBtn
+{
+    
+    margin-top: 30px;
+    height: 60px;
+    background-color:  #3B0520;
+    padding: 15px;
+    font-size: 20px;
+    transition: transform 0.4s ease-in-out;
+    border: none;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+#regBtn:hover,
+#returnBtn:hover
+{
+    text-decoration: none;
+    color: #ffffff;
+    background-color:rgb(95, 9, 52);
+    -webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+
+}
+
+.mainReg,
+.mainBilans
+{
+    display:flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -webkit-align-content: stretch;
+    align-content: stretch;
+    
+}
+
+.navbar-header
+{
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'Merienda', cursive;
+}
+#titleMainMenu
+{
+    color: #d9d9d9;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.navbar-nav{
+    margin-top: 20px;
+    text-align: center;
+    font-family:  'Bai Jamjuree', sans-serif;
+    font-size: 17px;
+}
+
+.dropdown-menu{
+    font-size: 17px !important;
+    text-align: center !important;
+    width: 100% !important;
+}
+
+
+#mainMenuIncomeBtn
+{
+    background-color:   #A63F53;
+    border: none;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 30px;
+    transition: transform 0.4s ease-in-out;  
+}
+
+#mainMenuIncomeBtn:hover
+{
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    background-color:rgb(202, 77, 102);
+    -webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+#mainMenuExpenseBtn
+{
+    background-color: #A07D7B;
+    border: none;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 30px;
+    transition: transform 0.4s ease-in-out;
+}
+#mainMenuExpenseBtn:hover
+{
+    text-decoration: none;
+    border: none;
+    color: #ffffff;
+    border: none;
+    background-color:rgb(197, 155, 152);
+    -webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+#mainMenuBilansBtn
+{
+    background-color: #3B0520;
+    border: none;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 30px;
+    transition: transform 0.4s ease-in-out;
+}
+#mainMenuBilansBtn:hover
+{
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    background-color:rgb(95, 9, 52);
+    -webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+#mainMenuPropBtn
+{
+    background-color: #90352B;
+    border: none;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 30px;
+    transition: transform 0.4s ease-in-out;
+}
+#mainMenuPropBtn:hover
+{
+    text-decoration: none;
+    border: none;
+    color: #ffffff;
+    background-color:rgb(184, 70, 58);
+    -webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.modal-content
+{
+    text-align: center;
+}
+
+.modal-header
+{
+    color: white;
+    text-align: center;
+    background-color: #A63F53; 
+}
+.modal-body
+{
+    text-decoration: none;
+    margin-left: auto;
+    margin-left: auto;
+    background-color: #e2e2e2;
+}
+#bilansBtn
+{
+    width: 95%;
+    padding: 10px;
+    background-color:#3B0520;
+    font-size: 20px;
+    border: none;
+    margin-left: -30px;
+    margin-top:10px;
+    transition: transform 0.4s ease-in-out;
+    letter-spacing: 2px;
+}
+
+#bilansBtn:hover
+{
+    text-decoration: none;
+    color: #ffffff;
+    background-color:rgb(95, 9, 52);
+    -webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.incomeBlank,
+.expenseBlank{
+    background-image: url('img/dark.jpg');
+    width: 100%;
+    min-height: 500px;
+    margin-top: 50px;
+    color: #e2e2e2;
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding: 10px;
+    font-size: 25px;
+}
+.incomeBlank h2,
+.expenseBlank h2,
+.bilansBlank h2{
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+.formFormatIncome,
+.formFormatExpense,
+.formFormatDffBilans
+{
+    margin-top: 20px;
+    
+}
+#incomeBtn,
+#expenseBtn,
+#diffBilansBtn{
+    background-color:   #A63F53;
+    width: 280px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    height: 60px;
+    padding: 15px;
+    font-size: 22px;
+    transition: transform 0.4s ease-in-out;
+    border: none;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+#incomeBtn:hover,
+#expenseBtn:hover,
+#diffBilansBtn:hover
+{
+    text-decoration: none;
+    color: #ffffff;
+    background-color:rgb(202, 77, 102);
+    -webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.formRadio
+{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #f1f1f1;
+     color: #A63F53;
+     top: 14px;
+     height: 15px;
+     width: 15px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;     
+     margin-right: 7px;
+     outline: none;
+}
+.formRadio:checked::before
+{
+     position: absolute;
+    font: 35px/1 'Open Sans', sans-serif;
+     left: 1.2px;
+     top: -10px;
+     content: '•';
+     transform: rotate(40deg);
+     border: none;
+}
+.formRadio:hover
+{
+     background-color: #f7f7f7;
+}
+.formRadio:checked
+{
+     background-color: #f1f1f1;
+}
+
+.bilansBlank{
+    background-image: url('img/dark.jpg');
+    width: 100%;
+    min-height: 500px;
+    margin-top: 50px;
+    color: #e2e2e2;
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding: 10px;
+    font-size: 25px;
+}
+table{
+    border-radius: 5px;
+    margin-top: 25px;
+}
+  
+th{
+    background-color: #2E2F30;
+    border: none;
+    color: #e2e2e2;
+    font-size: 18px;  
+    font-weight: lighter;
+}
+
+.headerTable{
+    background-color:#3B0520;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+#diffBilansBlank{
+    min-height: 200px;;
+}
+
+#diffBilansBtn{
+    margin-top: 50px;
+    background-color: #3B0520;
+}
+#diffBilansBtn:hover{
+    background-color: rgb(95, 9, 52);
+}
+
+
